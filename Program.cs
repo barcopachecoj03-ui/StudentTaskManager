@@ -138,7 +138,7 @@ class Program
 
                 case 0:
                     running = false;
-                    Console.WriteLine("Goodbye! Go eat your tacos! 🌮");
+                    Console.WriteLine("Goodbye!");
                     break;
 
                 default:
@@ -148,9 +148,7 @@ class Program
         }
     }
 
-    // ==========================
     // 5TH step: METHODS
-    // ==========================
 
     static void ShowMenu()
     {
@@ -242,9 +240,8 @@ class Program
     }
 }
 
-// ==========================
 // 6TH step: ENUM
-// ==========================
+
 enum TaskPriority
 {
     Low,
